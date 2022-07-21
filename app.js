@@ -20,12 +20,12 @@ console.log(age);
 
 
 
-sexo = prompt('introduce tu sexo');
+let sexo = prompt('introduce tu sexo');
 
 if (sexo == 'masculino'){
     alert('podes entrar si sos mayor de 18');
 
-    edad = prompt("Introduce tu edad");
+    let edad = prompt("Introduce tu edad");
     if (edad >= 18){
         alert("Puedes entrar, eres mayor de edad.");
        } else {
@@ -36,7 +36,7 @@ if (sexo == 'masculino'){
 else if(sexo == 'femenino'){
     alert('mujeres solo mayores de 20');
 
-    edad = prompt("Introduce tu edad");
+    let edad = prompt("Introduce tu edad");
     if (edad >= 20){
         alert("Puedes entrar, eres mayor de edad.");
        } else {
