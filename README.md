@@ -1,0 +1,2 @@
+# trabajo10
+JavaScript
